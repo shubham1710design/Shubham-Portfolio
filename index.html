@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Protfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shubham Protfolio</div>
+            <button class="nav-toggle" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <button id="theme-toggle" aria-label="Toggle light and dark mode"><i class="fa fa-moon"></i></button>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection" id="home">
+            <div class="leftsection">
+                Hi, My Name is <span class="name">Shubham Kumar</span>
+                <div>and I am a Passionate <span id="element"></span> </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="./assests/webdev.png">
+            </div>
+        </section>
+        <div class="hero-buttons">
+            <a href="./assests/Shubham Resume (2).pdf" download class="btn">Download Resume</a>
+            <a href="https://www.linkedin.com/in/shubham-kumar-569180354/" target="_blank" rel="noopener noreferrer"
+                class="btn secondary">LinkedIn</a>
+        </div>
+        <hr>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a B.Tech 8th Semester student and a passionate Full Stack Developer who builds responsive web
+                applications using HTML, CSS, JavaScript, Node.js, Express.js, React.js, and MongoDB. I have delivered
+                real-world projects like an e-commerce platform with authentication, Razorpay payment integration, and
+                an admin dashboard, as well as an online learning platform with role-based access. I enjoy solving
+                problems, learning new technologies, and creating clean, user-friendly experiences. I am looking for
+                internship or junior developer opportunities where I can contribute to meaningful web products and keep
+                growing as a developer.
+            </p>
+
+        </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress"><span style="width:95%"></span></div>
+                <p>CSS</p>
+                <div class="progress"><span style="width:90%"></span></div>
+                <p>JavaScript</p>
+                <div class="progress"><span style="width:85%"></span></div>
+                <p>Node.js</p>
+                <div class="progress"><span style="width:80%"></span></div>
+                <p>Express.js</p>
+                <div class="progress"><span style="width:80%"></span></div>
+                <p>MongoDB</p>
+                <div class="progress"><span style="width:70%"></span></div>
+                <p>React.js</p>
+                <div class="progress"><span style="width:70%"></span></div>
+                <p>Git/GitHub</p>
+                <div class="progress"><span style="width:85%"></span></div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+
+            <div class="project-card">
+                <h3>E-Commerce Website(ShopX)</h3>
+                <p>Developed and deployed a full-stack E-Commerce platform with authentication, admin dashboard,
+                    Razorpay integration, cart,
+                    wishlist, and MongoDB Atlas database.</p>
+                <a href="https://github.com/shubham1710design/E-commerce-Project-SHOPX">GitHub</a>
+                <a href="https://shopx-techstore.netlify.app/">Live Demo</a>
+            </div>
+            <div class="project-card">
+                <h3>Online Learning Platform</h3>
+                <p>• Built a scalable platform for delivering courses, managing users, and tracking learning progress
+                    with interactive features (quizzes,
+                    assignments, discussions)
+                </p>
+                <p>• Developed secure authentication and role-based access control for students, instructors, and admins
+                </p>
+                <a href="https://github.com/shubham1710design/">GitHub</a>
+                <a href="#">Live Demo</a>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <div class="cert-card">
+                <p>Web Developer Intern (July 2025 – Oct 2025)
+                    CodeC Technologies</p>
+                <p>• Developed responsive web application using HTML, CSS, and JavaScript.</p>
+                <p>• Participated in code reviews and agile sprints, gaining hand-on experience with modern frontend
+                    tools and best practices.</p>
+                <p>• Supported production deployment and bug fixes, ensuring high quality deliverables under tight
+                    deadlines.
+                </p>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="experience-cards">
+                <div class="experience-card">
+                    <h3>Web Developer Intern</h3>
+                    <p class="experience-company">CodeC Technologies | July 2025 – Oct 2025</p>
+                    <ul>
+                        <li>Built responsive web applications using HTML, CSS, JavaScript, and Git.</li>
+                        <li>Assisted with bug fixes, code reviews, and deployment support.</li>
+                        <li>Worked with agile workflows and collaborated on feature delivery.</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <h3>Full-stack Project Experience</h3>
+                    <ul>
+                        <li>Developed an e-commerce platform with authentication, Razorpay payment integration, cart/wishlist, and admin dashboard.</li>
+                        <li>Built an online learning platform with role-based access, quizzes, and course tracking.</li>
+                        <li>Focused on clean UI, mobile-friendly design, and scalable MERN stack architecture.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="#">WhatsApp</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Instagram</a>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
