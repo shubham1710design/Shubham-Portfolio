@@ -2,6 +2,9 @@
 
 Personal portfolio website showcasing projects, skills, and contact information.
 
+# live link 
+: https://shubham1protfolio.netlify.app/
+
 ## Overview
 
 This is a simple, static portfolio site built with HTML, CSS and JavaScript. It showcases projects, a short bio, and contact links.
@@ -36,7 +39,7 @@ Open `index.html` in a browser to view the site locally.
 - Edit `app.js` to modify interactive behavior.
 
 
-![Project screenshot](assests/screenshot.png)
+![Project screenshot](screenshorts/home.png)
 ```
 
 
